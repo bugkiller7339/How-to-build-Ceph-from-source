@@ -1,7 +1,7 @@
 # How-to-build-Ceph-from-source
 A record of the process to build Ceph from source
 
-# Ceph_Installation_Notes
+# Ceph_Installation_Notes(Manually)
 
 
 1.使用make-j编译时报以下错误，且机器会非常卡顿（google的结果是由于创建线程太多内存不足导致）
