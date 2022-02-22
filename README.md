@@ -1,7 +1,7 @@
 # How-to-build-Ceph-from-source
 A record of the process to build Ceph from source
 
-# Ceph_Installation_Notes(Manually)
+## Ceph_Installation_Notes(Manually)
 
 
 1.使用make-j编译时报以下错误，且机器会非常卡顿（google的结果是由于创建线程太多内存不足导致）
@@ -229,7 +229,7 @@ journalctl -xe报以下错误
         Feb 17 19:05:31 monitor1 kubelet[1140]: E0217 19:05:31.845480    1140 controller.go:144] failed to ensure lease exists, will retry in 7s, error: leases.coordination.k8s.io "monitor1" is forbidden: User "system:node:localhost.localdomain" cannot get resource "leases" in API group "coordination.k8s.io" in the namesource "leases" in API group "coordination.k8s.io" in the namespace "kube-node-lease": can only access node lease with the same name as the requesting node
 
 
-# Ceph_Docker_Installation_Notes
+## Ceph_Docker_Installation_Notes
 
 1.在install的过程中出现以下问题（手动安装时未出现这个问题）
 
